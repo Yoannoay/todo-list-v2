@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "Build stage... now!"
+echo "Build stage"
+
+# build images 
+docker-compose build 
